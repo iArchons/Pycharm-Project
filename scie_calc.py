@@ -1,10 +1,11 @@
+from tkinter import *
 from tkinter import Tk
 from tkinter import StringVar, Entry, Button
 from math import sin, cos, tan, asin, acos, atan, asinh, acosh, atanh, pi, e, radians, degrees
 
 window = Tk()
 window.title('Scientific Calculator')
-window.configure(background="light blue")
+window.configure(background="light blue", bd=20, relief=RIDGE)
 window.resizable(False, False)
 
 
